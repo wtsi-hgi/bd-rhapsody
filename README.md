@@ -8,7 +8,7 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
-##v1.9 - July 29, 2020
+## v1.9 - July 29, 2020
 
 BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
 
