@@ -8,6 +8,27 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+##v1.9 - July 29, 2020
+
+BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
+
+- Improved FASTQ file pairing - filenames are flexible and pairing is now based on read sequence identifier
+- Optimized pipeline in various steps for memory and storage usage
+- Fixed bugs related to Sample Multiplexing Kit noise and DBEC mean molecule metric
+
+BD Rhapsody™ Targeted Analysis Pipeline:
+
+- Support for BD Rhapsody™ VDJ CDR3 protocol
+- Read and molecule counts for targets from same gene symbol are combined in the output tables
+- Updated Bowtie2 alignment parameters for improved sensitivity
+
+BD Rhapsody™ WTA Analysis Pipeline:
+
+- Updated Pct_Cellular Metrics calculations to match Bioinformatics handbook descriptions
+- Added support for supplemental reference fasta files, which allow alignment to transgenes, like viral RNA or GFP
+- Updated STAR alignment parameters for improved sensitivity
+
+
 ## v1.8 - Oct 4, 2019
 
 BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
