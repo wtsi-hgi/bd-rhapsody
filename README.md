@@ -8,6 +8,14 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+## v1.9.1 - October 6, 2020
+
+BD Rhapsody™ WTA Analysis Pipeline:
+
+- Improved putative cell calling algorithm to reduce overcalling of putative cells in high cell input experiments
+- Updated alignment settings to address overfiltering of longer AbSeq reads
+
+
 ## v1.9 - July 29, 2020
 
 BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
