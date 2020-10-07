@@ -13,7 +13,7 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 BD Rhapsody™ WTA Analysis Pipeline:
 
 - Improved putative cell calling algorithm to reduce overcalling of putative cells in high cell input experiments
-- Updated alignment settings to address overfiltering of longer AbSeq reads
+- Updated alignment settings to improve AbSeq mapping when R2 read length is greater than 75 bases
 
 
 ## v1.9 - July 29, 2020
