@@ -8,6 +8,22 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+## v1.10 - January 24, 2022
+
+BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
+
+- Updated VDJ pipeline with improved performance, new assembly algorithm, new metrics and new output files containing all available contig sequences
+- Added support for Rhapsody Enhanced Beads, with automatic bead version detection
+- Added option to call putative cells based on AbSeq read counts (for troubleshooting only)
+- Added “Alignment Categories” section to metric summary which provides a breakdown of alignments for read pairs with a valid cell label and UMI
+- Added separate metric summary files for each sample tag for experiments using BD Single-Cell Multiplexing kits
+- Renamed various metrics in outputs to reflect multiomics nature of data (Target Type → Bioproduct_Type, Gene/Target → Bioproduct)
+- Added Pct_Read_Pair_Overlap and Median Reads Per cell metric to metric summary
+- Improved support for larger runs on SBG
+- Updated workflow on SBG to improve editing of resource requirements
+- Optimized pipeline metadata handling
+- Improved checking of reference files
+
 ## v1.9.1 - October 6, 2020
 
 BD Rhapsody™ WTA Analysis Pipeline:
