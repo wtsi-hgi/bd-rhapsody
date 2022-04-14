@@ -8,6 +8,12 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+## v1.10.1 - April 14, 2022
+
+- Fixed issue with cell label detection on reads from TCR/BCR, when TCR/BCR libraries were combined with other library types (WTA, Targeted, AbSeq) in a single sequencing index.
+- Fixed issue with processing FASTQ files whose filenames end in fq.gz
+
+
 ## v1.10 - January 24, 2022
 
 BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
