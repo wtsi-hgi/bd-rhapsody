@@ -8,6 +8,21 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+## v1.11 - Aug 18, 2022
+
+BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
+
+- Added a pipeline report HTML that contains information about the analysis including the metrics summary and graphs to visualize the results
+- By default, reads aligned to exons and introns are now considered and represented in molecule counts.  Added parameter to control this behavior.
+- Added new "Alignment Categories" for TCR and BCR reads
+- Added support for VDJ Adaptive Immune Receptor Repertoire (AIRR) standard format
+- For pipeline run where putative cells are determined based on AbSeq (protein) counts, added file output of cell IDs corresponding to suspected protein aggregates
+- Updated CWL workflow on Seven Bridges to fix memory failures and dynamically allocate resources for large datasets
+- Improved flexibility for FASTQ file naming
+- Updated Picard to version 2.27.4
+- Updated bead version detection
+
+
 ## v1.10.1 - April 14, 2022
 
 - Fixed issue with cell label detection on reads from TCR/BCR, when TCR/BCR libraries were combined with other library types (WTA, Targeted, AbSeq) in a single sequencing index.
