@@ -8,6 +8,15 @@ For more details on how to use these files, see the BD Genomics Analysis Setup U
 
 # Release notes
 
+## v1.11.1 - Dec 15, 2022
+
+- Improved speed and disk usage of AnnotateReads step
+- Update Pandas version to fix error: “ValueError: Unstacked DataFrame is too big, causing int32 overflow”
+- Better prediction of RAM requirements
+- Improved basic and refined putative cell calling algorithms
+- Deletion of unnecessary intermediate files to save disk space
+- Seven Bridges deployment: Fix for error “Instance not available for automatic scheduling”
+
 ## v1.11 - Aug 18, 2022
 
 BD Rhapsody™ Targeted Analysis Pipeline and BD Rhapsody™ WTA Analysis Pipeline:
