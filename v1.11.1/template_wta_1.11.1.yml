@@ -53,6 +53,15 @@ Transcriptome_Annotation:
 ## The values can be true or false. By default, the refined algorithm is used.
 #Basic_Algo_Only: true
 
+####################################
+## Intronic Reads Settings ##
+####################################
+
+## Exclude_Intronic_Reads (optional)
+## By default, the flag is false, and reads aligned to exons and introns are considered and represented in molecule counts. When the flag is set to true, intronic reads will be excluded.
+## The value can be true or false.
+#Exclude_Intronic_Reads: true
+
 ########################
 ## Subsample Settings ##
 ########################
