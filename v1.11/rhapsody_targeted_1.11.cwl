@@ -3253,6 +3253,7 @@
             "hints": [
                 {
                     "coresMin": 4,
+                    "ramMin": 16000,
                     "class": "ResourceRequirement"
                 }
             ]
@@ -5220,6 +5221,7 @@
                     "hints": [
                         {
                             "coresMin": 8,
+                            "ramMin": 16000,
                             "class": "ResourceRequirement"
                         }
                     ]

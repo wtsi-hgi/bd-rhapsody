@@ -3276,6 +3276,7 @@
             "hints": [
                 {
                     "coresMin": 4,
+                    "ramMin": 2000,
                     "class": "ResourceRequirement"
                 }
             ]
@@ -5243,6 +5244,7 @@
                     "hints": [
                         {
                             "coresMin": 8,
+                            "ramMin": 2000,
                             "class": "ResourceRequirement"
                         }
                     ]
